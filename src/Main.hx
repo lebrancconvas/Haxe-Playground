@@ -14,5 +14,13 @@ class Main {
 		trace(member01 * member02);
 		trace(member02 / member01);
 		trace(member02 % member01);
+
+		// Basic Input and Output 
+		var SystemInput = Sys.stdin();
+
+		Sys.print("Enter Username: ");
+		var username = SystemInput.readLine();
+		
+		Sys.println('Username: $username');  
 	}
 }
