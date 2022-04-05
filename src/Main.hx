@@ -33,5 +33,12 @@ class Main {
 		} else {
 			Sys.println('$username is ok.');
 		}
+
+		// Function 
+		add(1,2);
+	}
+
+	static function add(a:Int, b:Int) {
+		Sys.println(a + b);
 	}
 } 
