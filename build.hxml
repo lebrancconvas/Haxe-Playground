@@ -1,4 +1,7 @@
 -cp src
 -D analyzer-optimize
 -main Main
---interp
+##--interp
+
+#--python bin/main.py
+#--js bin/main.js 
