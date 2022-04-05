@@ -19,8 +19,19 @@ class Main {
 		var SystemInput = Sys.stdin();
 
 		Sys.print("Enter Username: ");
-		var username = SystemInput.readLine();
-		
+		var username:String = SystemInput.readLine();
+
 		Sys.println('Username: $username');  
+
+		// Condition 
+		var attack:Int = 30;
+		
+		if(attack > 30) {
+			Sys.println('$username is too strong.');
+		} else if(attack < 30) {
+			Sys.println('$username is too weak.');
+		} else {
+			Sys.println('$username is ok.');
+		}
 	}
-}
+} 
